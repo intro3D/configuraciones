@@ -1,0 +1,60 @@
+** Configuración inicial sin usar adhesión / soportes **
+
+--Especificaciones de la impresora--
+Marca:	Custom FFF (clon de Prusa i3)
+Plataforma: Rectangular 200x200x200mm
+Origen en el centro:	No
+Hot Bed: Si
+Extrusor: 1 Directo
+Nozzle: 0.4mm
+Filamento: 1.75mm
+
+--Quality--
+Layer Height:	0.2mm
+Initial Layer Height:	0.2mm
+
+--Shell--
+Wall Thickness:	0.8mm
+Wall Line Count: 2
+Top/Bottom Thickness:	0.8mm
+Top Thickness:	0.8mm
+Top Layers:	4
+Bottom Thickness:	0.8mm
+Bottom Layers:	4
+Enable Ironing:	Desactivado
+
+--Infill--
+Infill Density:	20%
+Infill Pattern:	Grid
+
+--Material--
+Printing Temperature:	200° (PLA)
+Build Plate Temperature:	60°
+Flow:	100%
+
+--Speed--
+Print Speed:	60mm/s
+Infill Speed:	60mm/s
+Wall Speed:	30mm/s
+Outer Wall Speed:	30mm/s
+Inner Wall Speed:	30mm/s
+Travel Speed:	60mm/s
+Initial Layer Speed:	20mm/s
+
+--Travel--
+Enable Retraction:	Activada
+Retraction Distance:	1mm	(para bowden 4.5mm -luego realizar pruebas de retracción-)
+Retraction Speed:	50mm/s	(para bowden 40mm/s -luego realizar pruebas de retracción-)
+Z Hop When Retracted:	Desactivado
+
+--Cooling--
+Enable Print Cooling:	Activado
+Regular Fan Speed:	100%
+Initial Fan Speed:	0%
+Regular Fan Speed at Height:	4mm
+
+--Support--
+Generate Support:	Desactivado
+
+--Build Plate Adhesion--
+Build Plate Adhesion Type:	Ninguno
